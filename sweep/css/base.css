@@ -1,0 +1,133 @@
+body {
+	font-size: 14px;
+	font-weight: bold;
+	width: 80%;
+	margin: 30px auto;
+	text-align: center;
+	border: 5px solid #96a5b4;
+}
+
+.color1 {
+	color: blue;
+}
+
+.color2 {
+	color: green;
+}
+
+.color3 {
+	color: red;
+}
+
+.color4 {
+	color: #000080;
+}
+
+.color5 {
+	color: #800000;
+}
+
+.color6 {
+	color: #008080;
+}
+
+.color7 {
+	color: #000000;
+}
+
+.color8 {
+	color: #808080;
+}
+
+.hidden {
+	background: url(../img/mine.gif) 0 0;
+}
+
+.flag {
+	background: url(../img/mine.gif) -19px 0;
+}
+
+.check {
+	background: url(../img/mine.gif) -38px 0;
+}
+
+.bomb {
+	background: url(../img/mine.gif) -57px 0;
+}
+
+.cbomb {
+	background: url(../img/mine.gif) -57px 0 #ff0000;
+}
+
+.img div {
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.main {
+	/*position: relative;*/
+	margin: 10px auto;
+	background: #ddd;
+}
+
+.main div {
+	width: 18px;
+	height: 18px;
+	float: left;
+	border: 1px solid #96a5b4;
+	/*position: absolute;*/
+}
+
+.level {
+	color: white;
+	border: 1px solid #96a5b4;
+	height: 30px;
+	width: 50px;
+	border-radius: 3px;
+	background-color: cornflowerblue;
+}
+
+.level:hover {
+	background-color: cornflowerblue;
+	opacity: 0.8;
+}
+
+.record {
+	margin: 20px auto;
+	text-align: center;
+	display: none;
+	width: 400px;
+}
+.record label {
+	margin:0 10px;
+}
+.mess {
+	color: red;
+}
+
+.main div {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.input {
+	margin: 10px 0;
+}
+
+.number {
+	height: 25px;
+	width: 50px;
+}
+
+.display {
+	display: none;
+}
+
+.help {
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #96a5b4;
+}

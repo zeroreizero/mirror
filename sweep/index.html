@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/sweep.js"></script>
+	</head>
+	<body>
+		<div class="img">
+			<div class="hidden"></div>
+			<div class="flag"></div>
+			<div class="check"></div>
+			<div class="bomb"></div>
+			<div class="cbomb"></div>
+		</div>
+		<div>
+			<input type="button" class="level" value="初级" name="easy">
+			<input type="button" class="level" value="中级" name="normal">
+			<input type="button" class="level" value="高级" name="difficult">
+			<input type="button" class="level" value="帮助" name="help">
+			<div class="display help">
+				<p>鼠标左击开雷，右击标记雷</p>
+				<p>一次右击标记为旗帜，标记为旗帜的左击无用，可再次右击，标记为疑问，再右击，取消所有标记</p>
+				<p>点击中间键根据旗帜标记自动开雷</p>
+			</div>
+			<div class="input">
+				行：<input type="text" class="number" value="" name="row" onkeyup="value=value.replace(/[^\d]/g,'') " ng-pattern="/[^a-zA-Z]/" placeholder="数字"> 列：
+				<input type="text" class="number" value="" name="col" onkeyup="value=value.replace(/[^\d]/g,'') " ng-pattern="/[^a-zA-Z]/" placeholder="数字">
+				<input type="button" class="level" value="确认" name="define">
+			</div>
+
+			<div class="record">
+
+				<label>剩余雷数:<span id="remain"></span></label>
+
+				<label>游戏用时：<span id="userTime"></span>s</label>
+
+				<label class="mess"></label>
+			</div>
+		</div>
+		<div class="main"></div>
+	</body>
+</html>
